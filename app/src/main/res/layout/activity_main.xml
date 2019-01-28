@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_src"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_base64_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示java版本base64结果"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_base64_jni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示jni版本base64结果"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_base64_encode_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="base64编码 java版本"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_base64_decode_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="base64解码 java 版本"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_base64_encode_jni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="base64编码 jni版本"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_base64_decode_jni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="base64解码 jni版本"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/tv_aes_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示java版本aes结果"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_aes_jni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示jni版本aes结果"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_java_encrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AES加密java版本"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_java_decrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AES解密java版本"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_jni_encrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AES加密jni版本"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_jni_decrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AES解密jni版本"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/et_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="123456789000000"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/show_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="native层密钥"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_set_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更换密钥"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_get_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取密钥"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>
