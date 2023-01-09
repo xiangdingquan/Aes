@@ -1,6 +1,6 @@
 package org.xdq.aes;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -18,10 +18,10 @@ import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
 
-    public static final String MSG = "this is dadada   msg!!!";
+    public static final String MSG = "this is test message !!!";
     private TextView mTVBase64Java;
     private TextView mTVBase64Jni;
     private EditText mSrc;
